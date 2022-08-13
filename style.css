@@ -40,12 +40,21 @@
   }
 
   a {
-    display: flex;
-    align-items: center;
-    gap: 6px;
     cursor: pointer;
     text-decoration: none;
     color: #19191a;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 2px solid transparent;
+  }
+
+  .links:hover {
+    border-bottom: 2px solid #19191a;
+    transition: all 0.3s ease-in-out;
   }
 
   ul {
@@ -100,7 +109,7 @@
 
     font-size: 24px;
     font-weight: 700;
-    
+
     color: #19191a;
     margin-bottom: 20px;
   }
